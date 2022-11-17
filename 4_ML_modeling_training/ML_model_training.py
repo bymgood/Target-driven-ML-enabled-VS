@@ -92,7 +92,7 @@ def rf_grid_search(X,y):
 def RF_ROC_plot(rf_grid_imba, X, y, X_test, y_test):
     kf = StratifiedKFold(n_splits=10)
     rus = RandomUnderSampler(random_state=17, sampling_strategy = 1)
-    rfc = RandomForestClassifier(random_state=17, n_estimators=100)
+    rfc = RandomForestClassifier(random_state=17)
     tprs = []
     aucs = []
     mean_fpr = np.linspace(0, 1, 100)
@@ -103,7 +103,7 @@ def RF_ROC_plot(rf_grid_imba, X, y, X_test, y_test):
         print('Number of samples in each class %s' % Counter(y_train_1))
         X_res, y_res = rus.fit_resample(X_train_1, y_train_1)
         print('Number of samples in each class after balancing %s' % Counter(y_res))
-        probas_ = rf_grid_imba.best_estimator_.predict_proba(X_test_1)
+        probas_ = rfc.fit(X_res, y_res).predict_proba(X_test_1)
         # Compute ROC curve and area the curve
         fpr, tpr, thresholds = roc_curve(y_test_1, probas_[:, 1])
         tprs.append(interp(mean_fpr, fpr, tpr))
@@ -185,7 +185,7 @@ def MLP_ROC_plot(mlp_grid_imba, X, y, X_test, y_test):
         print('Number of samples in each class %s' % Counter(y_train_1))
         X_res, y_res = rus.fit_resample(X_train_1, y_train_1)
         print('Number of samples in each class after balancing %s' % Counter(y_res))
-        probas_ = mlp_grid_imba.best_estimator_.predict_proba(X_test_1)
+        probas_ = mlp.fit(X_res, y_res).predict_proba(X_test_1)
         # Compute ROC curve and area the curve
         fpr, tpr, thresholds = roc_curve(y_test_1, probas_[:, 1])
         tprs.append(interp(mean_fpr, fpr, tpr))
