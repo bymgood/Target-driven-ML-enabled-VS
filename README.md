@@ -9,10 +9,10 @@ For more information, please refer to our paper.
 The Starting_point[1-3].sh are the production scripts for launching vritual screening with different types of inputs. Clone the entire repository to your local machine prior to start.
 
 # Prerequisties
-To run the virtual screening, you need to install miniconda (https://docs.conda.io/en/latest/miniconda.html).
+To run the virtual screening, you need to install [miniconda](https://docs.conda.io/en/latest/miniconda.html).
 
 Then you need to 
-- setup a conda virtual environment with python (3.7) and activate it
+- Setup a conda virtual environment with python (3.7) and activate it
 ```bash
 conda create -n ML_VS python=3.7
 conda activate ML_VS
