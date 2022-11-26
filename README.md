@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 
 # Preparing molecular fingerprints for virtual screening
-To use the included Enamine 50k compound library for final ligand-based virtual screening, please run the followig command from **5_Virtural_screening**
+To use the included Enamine 50k compound library for final ML virtual screening, please run the followig command from **5_Virtural_screening**
 ```bash
 python Library_preparation.py -i Enamine_diversity_50K.csv -s 1 -c 2  -f Enamine_diversity_50K_morgan_1024_FP
 ```
