@@ -33,7 +33,7 @@ def get_blast_record(uniprot_id,size):
     #Run blast
     #fasta_string = open(args.input).read()
     result_handle = NCBIWWW.qblast(program="blastp",database= "nr",sequence= uniprot_id, ncbi_gi=True, hitlist_size=size, entrez_query="txid9606[ORGN]")
-    name='P62136'+"_blast"+".xml"
+    name='raw'+"_blast"+".xml"
     name=str(name)
     with open(name, "w") as out_handle:
         out_handle.write(result_handle.read())
