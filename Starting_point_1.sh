@@ -34,7 +34,7 @@ cp *.sav $directory_1/5_Virtural_screening/
 cd $directory_1/5_Virtural_screening/
 python Virtual_screening.py -m *MLP.sav -t MLP -s Enamine_diversity_50K_morgan_1024_FP.csv -f $uniprot_ID'_50K_VS_MLP'
 python Virtual_screening.py -m *random_forest.sav -t RF -s Enamine_diversity_50K_morgan_1024_FP.csv -f $uniprot_ID'_50K_VS_RF'
-cp *VS* $directory_1/6_Post_docking_analysis/
+cp *VS* $directory_1/6_Post_VS_analysis/
 
 # Module 6
 cd $directory_1/6_Post_VS_analysis/
