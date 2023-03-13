@@ -34,7 +34,7 @@ python Library_preparation.py -i Enamine_diversity_50K.csv -s 1 -c 2  -f Enamine
 
 # Run target-driven machine-learning-enabled VS
 The following example uses starting point 1 as an example.
-1. Search for the uniport ID of your target proteins (e.g. XXXX);
+1. Search for the uniport ID of your target proteins (e.g. P09238);
 2. Launch the ```Starting_point_1.sh``` script and provide uniport ID and working directory;
 ```bash
 bash Starting_point_1.sh
