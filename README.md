@@ -6,6 +6,7 @@ Target-driven machine-learning-enabled virtual screening is a machine learning t
 For more information, please refer to our paper: https://www.frontiersin.org/articles/10.3389/fmolb.2023.1163536/full
 
 ![alt text](https://www.frontiersin.org/files/Articles/1163536/fmolb-10-1163536-HTML/image_m/fmolb-10-1163536-g001.jpg)
+Scheme of the workflow implemented in the TAME-VS platform.
 
 # About this repository
 The Starting_point[1-3].sh are the production scripts for launching vritual screening with different types of inputs. Clone the entire repository to your local machine prior to start.
