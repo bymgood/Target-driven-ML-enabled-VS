@@ -1,4 +1,4 @@
-# Target-driven-ML-enabled-VS
+# Target-driven-ML-enabled-VS (TAME-VS)
 Target-driven machine-learning-enabled virtual screening is a machine learning tool developed to accelerate the early-stage hit identification. In this repository, you can find all you need to launch virtual screening against your target protein with different types of input information:
 - Mimimum info: a single uniport ID of your target protein (starting point 1); 
 - Intermediate info: Compound datasets containing active and inactive molecules against homologies of your target of interest (starting point 2);
