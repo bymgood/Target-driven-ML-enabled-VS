@@ -18,8 +18,8 @@ To run the virtual screening, you need to install [miniconda](https://docs.conda
 Then you need to 
 - Setup a conda virtual environment with python (3.7) and activate it
 ```bash
-conda create -n ML_VS python=3.7
-conda activate ML_VS
+conda create -n TAME_VS python=3.7
+conda activate TAME_VS
 ```
 - Install all third-party packages 
 ```bash
