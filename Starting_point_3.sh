@@ -21,7 +21,7 @@ cd $directory_1/3_Vectorization/
 python Vectorization.py -i $active_list -a active -f 'actives_'$active_list'_compounds_collection_fp'
 python Vectorization.py -i $inactive_list -a inactive -f 'inactives_'$inactive_list'_compounds_collection_fp'
 cp *fp* $directory_1/4_ML_modeling_training/
-cp *fp* $directory_1/6_Post_docking_analysis/
+cp *fp* $directory_1/6_Post_VS_analysis/
 
 # Module 4
 cd $directory_1/4_ML_modeling_training/
