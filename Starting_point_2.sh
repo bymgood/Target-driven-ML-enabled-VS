@@ -19,7 +19,7 @@ cd $directory_1/3_Vectorization/
 python Vectorization.py -i 'actives_'$uniprot_ID'_compounds_collection.csv' -a active -f 'actives_'$uniprot_ID'_compounds_collection_fp'
 python Vectorization.py -i 'inactives_'$uniprot_ID'_compounds_collection.csv' -a inactive -f 'inactives_'$uniprot_ID'_compounds_collection_fp'
 cp *fp* $directory_1/4_ML_modeling_training/
-cp *fp* $directory_1/6_Post_docking_analysis/
+cp *fp* $directory_1/6_Post_VS_analysis/
 
 # Module 4
 cd $directory_1/4_ML_modeling_training/
