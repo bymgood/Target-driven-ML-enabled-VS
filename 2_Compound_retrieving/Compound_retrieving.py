@@ -4,9 +4,6 @@
 
 print('Module 2: Compound collection')
 
-#Python3 is required for the chembl api
-#It is so sad that I have to jump from python2 to python3 because of this...
-
 import argparse
 from chembl_webresource_client.new_client import new_client
 import pandas as pd
