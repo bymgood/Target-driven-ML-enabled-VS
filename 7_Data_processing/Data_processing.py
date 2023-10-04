@@ -92,7 +92,7 @@ def write_out_all(outcome,name):
     return
 
 # # Use functions
-
+# Load in outcome
 mlp=read_screen_result(args.result_mlp)
 rf=read_screen_result(args.result_rf)
 
