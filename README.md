@@ -31,6 +31,7 @@ To use the included Enamine 50k compound library for final ML virtual screening,
 ```bash
 python Library_preparation.py -i Enamine_diversity_50K.csv -s 1 -c 2  -f Enamine_diversity_50K_morgan_1024_FP
 ```
+In March 2024, we added a convert.py file to module 5_Virtual_screening. This convert.py can be used to convert a customized .sdf chemical library into the .csv format. Then the Library_preparation.py should be able to be used for fingerprints calculations.
 
 # Run target-driven machine-learning-enabled VS
 The following example uses starting point 1 as an example.
