@@ -1,4 +1,4 @@
-# Target-driven ML-enabled VS
+# Target-driven ML-enabled VS default start
 
 echo Enter the uniprot id for the target of interest
 read uniprot_ID
