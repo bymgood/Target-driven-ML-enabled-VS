@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-# Author: Yuemin Bian
+## Author: Yuemin Bian
 
 print('Module 6: Post-docking analysis')
 
