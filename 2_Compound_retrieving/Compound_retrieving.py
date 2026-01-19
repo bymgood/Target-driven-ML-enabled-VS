@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-# Author: Yuemin Bian
+## Author: Yuemin Bian
 
 print('Module 2: Compound collection')
 
