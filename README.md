@@ -3,7 +3,6 @@ Target-driven machine-learning-enabled virtual screening is a machine learning t
 - Mimimum info: a single uniport ID of your target protein (starting point 1); 
 - Intermediate info: Compound datasets containing active and inactive molecules against homologies of your target of interest (starting point 2);
 - Advanced info: Compound datasets containing active molecules directly against your target of interest (starting point 3).    
-For more information, please refer to our paper (Yuemin Bian): https://www.frontiersin.org/articles/10.3389/fmolb.2023.1163536/full
 
 
 ![alt text](https://www.frontiersin.org/files/Articles/1163536/fmolb-10-1163536-HTML/image_m/fmolb-10-1163536-g001.jpg)
