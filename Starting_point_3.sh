@@ -1,4 +1,4 @@
-# Target-driven ML-enabled VS
+## Target-driven ML-enabled VS
 
 echo Starting point 3 - specify active and inactive compound list
 echo Enter the target name
